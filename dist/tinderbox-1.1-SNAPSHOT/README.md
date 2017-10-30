@@ -1,15 +1,15 @@
 tinderbox
 =========
 
-Another [@crockpotveggies](https://twitter.com/crockpotveggies) experiment.
+Another experiment.
 
-**Heads up!** As soon as you turn on this bot, it WILL start messaging all of your contacts. Please also check out the **Support** section below and the [Wiki](https://github.com/crockpotveggies/tinderbox/wiki) for tips on getting started. You will probably want to customize the messages. To do so, edit this [file](https://github.com/crockpotveggies/tinderbox/blob/master/app/models/bot/tasks/message/FunMessages.scala) then re-build the app using [these instructions](https://github.com/crockpotveggies/tinderbox/wiki/Editing-the-Code).
+**Heads up!** As soon as you turn on this bot, it WILL start messaging all of your contacts. Please also check out the **Support** section below and the [Wiki](https://github.com/DaveRKelly/tinderbox/wiki) for tips on getting started. You will probably want to customize the messages. To do so, edit this [file](https://github.com/DaveRKelly/tinderbox/blob/master/app/models/bot/tasks/message/FunMessages.scala) then re-build the app using [these instructions](https://github.com/DaveRKelly/tinderbox/wiki/Editing-the-Code).
 
 ## What is Tinderbox?
 
 Tinderbox is an experiment built on the Tinder app API. Tinderbox is a full Tinder solution that learns who you're attracted to (using machine learning) and also has a built-in bot that can start conversations. It is a full desktop interface for Tinder.
 
-![Screenshot](https://raw.githubusercontent.com/crockpotveggies/tinderbox/master/public/img/screenshot.jpg)
+![Screenshot](https://raw.githubusercontent.com/DaveRKelly/tinderbox/master/public/img/screenshot.jpg)
 
 Tinderbox is built on top of [Play!](http://www.playframework.com/) 2.2 and uses Akka, Spark, and other libraries for face detection in the background.
 
@@ -27,7 +27,7 @@ There are a few ways to run the code:
 
 ####Use the OSX app launcher
 (For OSX only) Use the .app launcher for OSX (you can drag and drop this into the Dock, too!)
-![App Launcher](https://raw.githubusercontent.com/crockpotveggies/tinderbox/master/public/img/screenshots/app-launcher.png)
+![App Launcher](https://raw.githubusercontent.com/DaveRKelly/tinderbox/master/public/img/screenshots/app-launcher.png)
 
 ####Use the startup scripts
 Before you run the startup scripts, fetch the Stanford NLP models. You can do this automatically by running:
@@ -62,7 +62,7 @@ The original author is not offering any further support. The code is released "a
 
 Tinderbox attempts to make a prediction based on profiles you've previously liked. This is done using elementary Machine Learning methods. Tinderbox will examine previous likes/dislikes and develop a model based on colors found within faces of profiles. The more likes/dislikes made, the more accurate the model will become.
 
-![Screenshot](https://raw.githubusercontent.com/crockpotveggies/tinderbox/master/public/img/tinderbox_eigenfaces_models.jpg)
+![Screenshot](https://raw.githubusercontent.com/DaveRKelly/tinderbox/master/public/img/tinderbox_eigenfaces_models.jpg)
 
 > Currently, the prediction being made is very elementary and uses EigenFaces for facial analysis. Eigenvector values are developed from
 > pixel models of each yes/no model of faces and compared against a new recommendation undergoing analysis. Whichever image is closest to
@@ -81,7 +81,7 @@ Tinderbox is the first bot I've built to interact on my behalf. Since it is a to
 
 ## Editing the Code
 
-Check out [this wiki page](https://github.com/crockpotveggies/tinderbox/wiki/Editing-the-Code) for instructions on editing the code and building the app.
+Check out [this wiki page](https://github.com/DaveRKelly/tinderbox/wiki/Editing-the-Code) for instructions on editing the code and building the app.
 
 ## License
 
